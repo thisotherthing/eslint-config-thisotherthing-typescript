@@ -4,12 +4,12 @@ eslint config for this other thing typescript projects
 
 
 ## Install
-add this as a depencency
+run `npm i git+ssh://git@github.com:thisotherthing/eslint-config-thisotherthing-typescript.git --save-dev`
 
 and then edit your `package.json` to include:
 
 ```
 "eslintConfig": {
   "extends": "thisotherthing-typescript"
-}
+},
 ```
