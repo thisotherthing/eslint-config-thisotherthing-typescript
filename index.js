@@ -12,6 +12,7 @@ module.exports = {
     "no-multi-spaces": "error",
     "prefer-const": "error",
     "object-shorthand": ["error", "always"],
+    "eol-last": ["error", "always"],
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/interface-name-prefix": ["error", "always"],
