@@ -13,6 +13,7 @@ module.exports = {
     "prefer-const": "error",
     "object-shorthand": ["error", "always"],
     "eol-last": ["error", "always"],
+    "no-useless-escape": 0,
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/interface-name-prefix": ["error", "always"],
