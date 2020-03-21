@@ -1,12 +1,25 @@
 {
   "name": "eslint-config-thisotherthing-typescript",
   "version": "1.0.0",
-  "description": "an eslint config",
+  "description": "thisotherthing typescript eslint config",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "thisotherthing",
+    "javascript",
+    "typescript"
+  ],
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thisotherthing/eslint-config-thisotherthing-typescript"
   },
-  "author": "Stefan Kernjak",
+  "scripts": {
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "this other thing",
   "license": "MIT",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.13.0",
